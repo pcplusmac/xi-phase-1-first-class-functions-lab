@@ -1,0 +1,27 @@
+{
+  "stats": {
+    "suites": 2,
+    "tests": 0,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2023-10-16T12:26:30.971Z",
+    "end": "2023-10-16T12:26:31.595Z",
+    "duration": 624
+  },
+  "tests": [],
+  "pending": [],
+  "failures": [
+    {
+      "title": "should return a new array containing the first two drivers from the passed-in array",
+      "fullTitle": "index.js returnFirstTwoDrivers() should return a new array containing the first two drivers from the passed-in array",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: returnFirstTwoDrivers is not defined\n    at Context.<anonymous> (test/indexTest.js:12:7)\n    at process.processImmediate (node:internal/timers:476:21)",
+        "message": "returnFirstTwoDrivers is not defined"
+      }
+    }
+  ],
+  "passes": []
+}
