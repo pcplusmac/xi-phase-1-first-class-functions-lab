@@ -5,22 +5,22 @@
     "passes": 2,
     "pending": 0,
     "failures": 1,
-    "start": "2023-10-17T03:57:58.225Z",
-    "end": "2023-10-17T03:57:58.484Z",
-    "duration": 259
+    "start": "2023-10-17T11:23:04.757Z",
+    "end": "2023-10-17T11:23:05.477Z",
+    "duration": 720
   },
   "tests": [
     {
       "title": "should return a new array containing the first two drivers from the passed-in array",
       "fullTitle": "index.js returnFirstTwoDrivers() should return a new array containing the first two drivers from the passed-in array",
-      "duration": 1,
+      "duration": 2,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "should return an array of the last two drivers",
       "fullTitle": "index.js returnLastTwoDrivers() should return an array of the last two drivers",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     }
@@ -30,11 +30,13 @@
     {
       "title": "has the `returnFirstTwoDrivers` function to as its first element",
       "fullTitle": "index.js selectingDrivers has the `returnFirstTwoDrivers` function to as its first element",
-      "duration": 0,
+      "duration": 2,
       "currentRetry": 0,
       "err": {
-        "stack": "ReferenceError: selectingDrivers is not defined\n    at Context.<anonymous> (test/indexTest.js:24:14)\n    at process.processImmediate (node:internal/timers:476:21)",
-        "message": "selectingDrivers is not defined"
+        "message": "expected 'returnFirstTwoDrivers' to deeply equal [Function: returnFirstTwoDrivers]",
+        "showDiff": true,
+        "actual": "returnFirstTwoDrivers",
+        "stack": "AssertionError: expected 'returnFirstTwoDrivers' to deeply equal [Function: returnFirstTwoDrivers]\n    at Context.<anonymous> (test/indexTest.js:24:38)\n    at process.processImmediate (node:internal/timers:476:21)"
       }
     }
   ],
@@ -42,14 +44,14 @@
     {
       "title": "should return a new array containing the first two drivers from the passed-in array",
       "fullTitle": "index.js returnFirstTwoDrivers() should return a new array containing the first two drivers from the passed-in array",
-      "duration": 1,
+      "duration": 2,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "should return an array of the last two drivers",
       "fullTitle": "index.js returnLastTwoDrivers() should return an array of the last two drivers",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     }

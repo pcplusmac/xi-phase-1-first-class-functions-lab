@@ -2,23 +2,24 @@
 
 const arr = ['Antonia', 'Nuru', 'Amari', 'Mo'];
 
-// define function that return first 2 drivers
-function  returnFirstTwoDrivers(arr) {
+// define anonymous function that return first 2 drivers
+const returnFirstTwoDrivers = (arr) => {
     const arrNew = [arr[0],arr[1]];
     // console.log(arrNew);
     return (arrNew);
 
 }
-console.log(arr);
-returnFirstTwoDrivers();
 
-
-//  Define the function return the last 2 drivers
-function returnLastTwoDrivers(arr) {
-    let len = arr.length;
-    const arrNew = [arr[len-2],arr[len-1]];
-    console.log(arrNew);
+//  Define the anonymous function return the last 2 drivers
+const returnLastTwoDrivers = (arr) => {
+    
+    const arrNew = [arr[arr.length-2],arr[arr.length-1]];
+    // console.log(arrNew);
     return (arrNew);
 
 } 
+
+// Define the function for selecting the drivers
+let selectingDrivers = ['returnFirstTwoDrivers', 'returnLastTwoDrivers' ]; 
+
 
