@@ -1,13 +1,13 @@
 {
   "stats": {
-    "suites": 4,
-    "tests": 2,
-    "passes": 2,
+    "suites": 5,
+    "tests": 5,
+    "passes": 5,
     "pending": 0,
     "failures": 1,
-    "start": "2023-10-17T11:23:04.757Z",
-    "end": "2023-10-17T11:23:05.477Z",
-    "duration": 720
+    "start": "2023-10-17T11:31:41.029Z",
+    "end": "2023-10-17T11:31:41.681Z",
+    "duration": 652
   },
   "tests": [
     {
@@ -23,20 +23,39 @@
       "duration": 0,
       "currentRetry": 0,
       "err": {}
+    },
+    {
+      "title": "has the `returnFirstTwoDrivers` function to as its first element",
+      "fullTitle": "index.js selectingDrivers has the `returnFirstTwoDrivers` function to as its first element",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "has the `returnLastTwoDrivers` function to as its last element",
+      "fullTitle": "index.js selectingDrivers has the `returnLastTwoDrivers` function to as its last element",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "allows us to invoke either function from the array",
+      "fullTitle": "index.js selectingDrivers allows us to invoke either function from the array",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
     }
   ],
   "pending": [],
   "failures": [
     {
-      "title": "has the `returnFirstTwoDrivers` function to as its first element",
-      "fullTitle": "index.js selectingDrivers has the `returnFirstTwoDrivers` function to as its first element",
-      "duration": 2,
+      "title": "returns a function",
+      "fullTitle": "index.js createFareMultiplier() returns a function",
+      "duration": 0,
       "currentRetry": 0,
       "err": {
-        "message": "expected 'returnFirstTwoDrivers' to deeply equal [Function: returnFirstTwoDrivers]",
-        "showDiff": true,
-        "actual": "returnFirstTwoDrivers",
-        "stack": "AssertionError: expected 'returnFirstTwoDrivers' to deeply equal [Function: returnFirstTwoDrivers]\n    at Context.<anonymous> (test/indexTest.js:24:38)\n    at process.processImmediate (node:internal/timers:476:21)"
+        "stack": "ReferenceError: createFareMultiplier is not defined\n    at Context.<anonymous> (test/indexTest.js:40:30)\n    at process.processImmediate (node:internal/timers:476:21)",
+        "message": "createFareMultiplier is not defined"
       }
     }
   ],
@@ -52,6 +71,27 @@
       "title": "should return an array of the last two drivers",
       "fullTitle": "index.js returnLastTwoDrivers() should return an array of the last two drivers",
       "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "has the `returnFirstTwoDrivers` function to as its first element",
+      "fullTitle": "index.js selectingDrivers has the `returnFirstTwoDrivers` function to as its first element",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "has the `returnLastTwoDrivers` function to as its last element",
+      "fullTitle": "index.js selectingDrivers has the `returnLastTwoDrivers` function to as its last element",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "allows us to invoke either function from the array",
+      "fullTitle": "index.js selectingDrivers allows us to invoke either function from the array",
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     }

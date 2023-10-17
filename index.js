@@ -20,6 +20,6 @@ const returnLastTwoDrivers = (arr) => {
 } 
 
 // Define the function for selecting the drivers
-let selectingDrivers = ['returnFirstTwoDrivers', 'returnLastTwoDrivers' ]; 
+const selectingDrivers = [returnFirstTwoDrivers, returnLastTwoDrivers]; 
 
 
