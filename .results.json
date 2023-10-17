@@ -1,13 +1,13 @@
 {
   "stats": {
-    "suites": 3,
-    "tests": 1,
-    "passes": 1,
+    "suites": 4,
+    "tests": 2,
+    "passes": 2,
     "pending": 0,
     "failures": 1,
-    "start": "2023-10-17T03:47:32.276Z",
-    "end": "2023-10-17T03:47:32.534Z",
-    "duration": 258
+    "start": "2023-10-17T03:57:58.225Z",
+    "end": "2023-10-17T03:57:58.484Z",
+    "duration": 259
   },
   "tests": [
     {
@@ -16,18 +16,25 @@
       "duration": 1,
       "currentRetry": 0,
       "err": {}
+    },
+    {
+      "title": "should return an array of the last two drivers",
+      "fullTitle": "index.js returnLastTwoDrivers() should return an array of the last two drivers",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
     }
   ],
   "pending": [],
   "failures": [
     {
-      "title": "should return an array of the last two drivers",
-      "fullTitle": "index.js returnLastTwoDrivers() should return an array of the last two drivers",
+      "title": "has the `returnFirstTwoDrivers` function to as its first element",
+      "fullTitle": "index.js selectingDrivers has the `returnFirstTwoDrivers` function to as its first element",
       "duration": 0,
       "currentRetry": 0,
       "err": {
-        "stack": "ReferenceError: returnLastTwoDrivers is not defined\n    at Context.<anonymous> (test/indexTest.js:18:7)\n    at process.processImmediate (node:internal/timers:476:21)",
-        "message": "returnLastTwoDrivers is not defined"
+        "stack": "ReferenceError: selectingDrivers is not defined\n    at Context.<anonymous> (test/indexTest.js:24:14)\n    at process.processImmediate (node:internal/timers:476:21)",
+        "message": "selectingDrivers is not defined"
       }
     }
   ],
@@ -35,6 +42,13 @@
     {
       "title": "should return a new array containing the first two drivers from the passed-in array",
       "fullTitle": "index.js returnFirstTwoDrivers() should return a new array containing the first two drivers from the passed-in array",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should return an array of the last two drivers",
+      "fullTitle": "index.js returnLastTwoDrivers() should return an array of the last two drivers",
       "duration": 1,
       "currentRetry": 0,
       "err": {}
