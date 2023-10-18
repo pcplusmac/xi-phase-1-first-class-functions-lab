@@ -22,4 +22,23 @@ const returnLastTwoDrivers = (arr) => {
 // Define the function for selecting the drivers
 const selectingDrivers = [returnFirstTwoDrivers, returnLastTwoDrivers]; 
 
+const fareDoubler = createFareMultiplier(2);
+
+const fareTripler = createFareMultiplier(3);
+// Create function a high-order function to return other functions
+function createFareMultiplier(num) {
+    return function (a) { return num*a};
+}
+
+// fareDoubler(10);
+// fareTripler(3);
+// function multiplier (fare, func) {
+//     func(fare);
+// }
+
+
+
+
+
+
 
