@@ -37,10 +37,22 @@ function createFareMultiplier(num) {
 // }
 
 // Define the function that can select the different drivers 
-function selectDifferentDrivers(arr, returnFirstTwoDrivers) {
-    return returnFirstTwoDrivers(arr);
+function selectDifferentDrivers(arr, func) {
+    return func(arr);
 
 }
+
+function  func(x) {
+    if (x === "first") {
+        return returnFirstTwoDrivers; 
+    }
+    if (x === "last" ) {
+        return returnLastTwoDrivers;
+    }
+    
+}
+
+//  func(first);
 
 
 
